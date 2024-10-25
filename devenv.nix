@@ -25,6 +25,11 @@
   #   hello
   #   git --version
   # '';
+   # Ensure `rustup` installs the required version of rustc
+  # enterShell = ''
+  #   rustup install 1.82.0
+  #   rustup default 1.82.0
+  # '';
 
   # https://devenv.sh/tasks/
   # tasks = {
